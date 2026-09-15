@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: fridgeai
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: GEMINI_MODEL
+        value: gemini-2.5-flash
+      # Secrets — entered in the Render dashboard, never committed:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: VITE_SUPABASE_URL
+        sync: false
+      - key: VITE_SUPABASE_ANON_KEY
+        sync: false
