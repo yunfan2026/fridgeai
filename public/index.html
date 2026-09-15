@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FridgeAI</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="app">
+
+      <!-- ── Header ─────────────────────────────────────────────────────── -->
+      <header class="app-header">
+        <span class="app-logo">🥦</span>
+        <span class="app-name">FridgeAI</span>
+        <span id="header-status" class="header-status"></span>
+      </header>
+
+      <!-- ── Views ──────────────────────────────────────────────────────── -->
+      <main class="view-container">
+
+        <!-- SCAN VIEW -->
+        <section id="view-scan" class="view active">
+          <div class="view-inner">
+            <h2 class="view-title">Scan Groceries</h2>
+
+            <!-- Upload zone -->
+            <label id="upload-zone" class="upload-zone" for="photo-input">
+              <span class="upload-icon">📷</span>
+              <span class="upload-label">Tap to upload a grocery photo</span>
+              <span class="upload-sub">or take one with your camera</span>
+              <input id="photo-input" type="file" accept="image/*" capture="environment" hidden>
+            </label>
+
+            <!-- Image preview -->
+            <img id="scan-preview" class="scan-preview hidden" alt="Grocery photo preview">
+
+            <!-- Scanning state -->
+            <div id="scan-loading" class="scan-loading hidden">
+              <span class="spinner"></span> Identifying items…
+            </div>
+
+            <!-- Demo badge -->
+            <div id="demo-badge" class="demo-badge hidden">
+              Demo mode — Vision API key not configured. Showing sample items.
+            </div>
+
+            <!-- Detected items editable list -->
+            <div id="scan-results" class="hidden">
+              <div class="section-label">Review detected items</div>
+              <div id="detected-items" class="detected-list"></div>
+              <button id="save-items-btn" class="btn-primary">Save to Inventory</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- INVENTORY VIEW -->
+        <section id="view-inventory" class="view">
+          <div class="view-inner">
+            <h2 class="view-title">Inventory</h2>
+
+            <!-- Summary bar -->
+            <div id="inventory-summary" class="summary-bar"></div>
+
+            <!-- Groups -->
+            <div id="inventory-groups"></div>
+
+            <!-- Empty state -->
+            <div id="inventory-empty" class="empty-state hidden">
+              <span class="empty-icon">🛒</span>
+              <p>No items yet. Scan a grocery photo to get started.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- RECIPES VIEW -->
+        <section id="view-recipes" class="view">
+          <div class="view-inner">
+            <h2 class="view-title">Recipe Suggestions</h2>
+            <p class="view-sub">Using ingredients expiring soonest.</p>
+
+            <button id="refresh-recipes-btn" class="btn-secondary">🔄 Refresh suggestions</button>
+
+            <div id="recipes-loading" class="scan-loading hidden">
+              <span class="spinner"></span> Asking Gemini…
+            </div>
+
+            <div id="recipes-list"></div>
+
+            <div id="recipes-empty" class="empty-state hidden">
+              <span class="empty-icon">🍳</span>
+              <p>Add items to your inventory first, then come back for recipe ideas.</p>
+            </div>
+
+            <div id="recipes-error" class="error-msg hidden"></div>
+          </div>
+        </section>
+
+      </main>
+
+      <!-- ── Bottom Tab Bar ──────────────────────────────────────────────── -->
+      <nav class="tab-bar">
+        <button class="tab-btn active" data-tab="scan">
+          <span class="tab-icon">📷</span>
+          <span class="tab-label">Scan</span>
+        </button>
+        <button class="tab-btn" data-tab="inventory">
+          <span class="tab-icon">🗂</span>
+          <span class="tab-label">Inventory</span>
+        </button>
+        <button class="tab-btn" data-tab="recipes">
+          <span class="tab-icon">🍳</span>
+          <span class="tab-label">Recipes</span>
+        </button>
+      </nav>
+
+    </div><!-- #app -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
