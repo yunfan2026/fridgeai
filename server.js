@@ -101,9 +101,24 @@ function tagAlcohol(item) {
   };
 }
 
+// Detect image type from the first bytes so HEIC/PNG/WebP (not just JPEG) work.
+function detectMime(b64) {
+  const buf = Buffer.from(b64.slice(0, 64), 'base64');
+  const hex = buf.toString('hex');
+  if (hex.startsWith('ffd8ff')) return 'image/jpeg';
+  if (hex.startsWith('89504e47')) return 'image/png';
+  if (hex.startsWith('47494638')) return 'image/gif';
+  if (buf.slice(0, 4).toString('ascii') === 'RIFF' && buf.slice(8, 12).toString('ascii') === 'WEBP')
+    return 'image/webp';
+  if (buf.slice(4, 8).toString('ascii') === 'ftyp') {
+    const brand = buf.slice(8, 12).toString('ascii').toLowerCase();
+    if (/hei|mif1|msf1|hevc/.test(brand)) return 'image/heic';
+  }
+  return 'image/jpeg';
+}
+
 function imagePart(b64) {
-  // Client sends bare base64 (camera output is JPEG); Gemini decodes tolerantly.
-  return { inlineData: { mimeType: 'image/jpeg', data: b64 } };
+  return { inlineData: { mimeType: detectMime(b64), data: b64 } };
 }
 
 function parseJSON(text) {
