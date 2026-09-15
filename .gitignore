@@ -1,6 +1,15 @@
 node_modules/
 local.env
 .env
+
+# Personal eval photos — keep labels/results, never publish the images
+eval/fixtures/*.heic
+eval/fixtures/*.HEIC
+eval/fixtures/*.jpg
+eval/fixtures/*.jpeg
+eval/fixtures/*.png
+eval/fixtures/*.webp
+eval/fixtures/.DS_Store
 .DS_Store
 npm-debug.log*
 dist/

@@ -34,8 +34,10 @@ You receive one or more images from a SINGLE shopping trip. Depending on MODE:
 
 GUARDRAILS — be strict:
 - REJECT anything that is not food/drink for people: people, pets, furniture, phones, utensils,
-  and non-food consumables sold at grocery stores (medicine, vitamins, cleaning supplies, cosmetics,
-  toiletries, paper goods). Put a short label for each rejected thing in "rejected".
+  and non-food consumables (medicine/pharmaceuticals, cleaning supplies, cosmetics, toiletries,
+  paper goods). Put a short label for each rejected thing in "rejected".
+- ALLOW dietary/nutritional supplements you consume (protein powder, creatine, vitamins,
+  electrolyte mixes, collagen) as trackable items with category "supplement".
 - ALLOW pet food as a normal trackable item (category "petfood").
 - ALLOW alcohol and tobacco, but add "alcohol" or "tobacco" to that item's "flags" and set its
   shelfLifeDays to null (no expiry nudging).
@@ -43,7 +45,7 @@ GUARDRAILS — be strict:
 
 For each accepted item provide:
 - name: specific, human-readable (prefer "Fuji Apple" over "Apple" when identifiable)
-- category: one of produce, dairy, meat, seafood, bakery, pantry, frozen, beverage, petfood, other
+- category: one of produce, dairy, meat, seafood, bakery, pantry, frozen, beverage, supplement, petfood, other
 - quantity: number (default 1; use the receipt/pack count when visible)
 - unit: natural unit (pieces, bag, bottle, block, container, cans, loaf, ...)
 - trackingType: "count" for discrete countable units (eggs, apples, cans); "portion" for bulk/
