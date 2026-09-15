@@ -1,0 +1,244 @@
+{
+  "ranAt": "2026-09-15T20:37:59.355Z",
+  "rows": [
+    {
+      "name": "25F1AC6E.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 1,
+        "predicted": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "74A3615C.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 0,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 0,
+        "predicted": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "AE815818.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 0,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 4,
+        "predicted": 4,
+        "expected": 4
+      }
+    },
+    {
+      "name": "BBEE338B.json",
+      "precision": 0.8333333333333334,
+      "recall": 1,
+      "f1": 0.9090909090909091,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [
+        "Frozen Kung Fu Snakehead Fish",
+        "Twin Pack Mushrooms"
+      ],
+      "detail": {
+        "tp": 10,
+        "predicted": 12,
+        "expected": 10
+      }
+    },
+    {
+      "name": "BC4B63D0.json",
+      "precision": 0.5,
+      "recall": 1,
+      "f1": 0.6666666666666666,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [
+        "Kewpie Deep Roasted Sesame Dressing & Marinade"
+      ],
+      "detail": {
+        "tp": 1,
+        "predicted": 2,
+        "expected": 1
+      }
+    },
+    {
+      "name": "C20AA64C.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 3,
+        "predicted": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "CD22E3FC.json",
+      "precision": 0.7142857142857143,
+      "recall": 1,
+      "f1": 0.8333333333333333,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [
+        "Natural Angus Prime Beef Chuck",
+        "Natural Angus Prime Beef Chuck"
+      ],
+      "detail": {
+        "tp": 5,
+        "predicted": 7,
+        "expected": 5
+      }
+    },
+    {
+      "name": "F105BBEE.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 1,
+        "predicted": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "IMG_1062.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 3,
+        "predicted": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "IMG_1063.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 1,
+        "predicted": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "IMG_1064.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 0,
+        "predicted": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "d4b51d0c.json",
+      "precision": 0.7647058823529411,
+      "recall": 0.8125,
+      "f1": 0.787878787878788,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [
+        "Broccoli",
+        "Shells and White Cheddar",
+        "Applesauce"
+      ],
+      "phantom": [
+        "Organic Garlic Hummus",
+        "Vegan Flame Grilled Protein Burger",
+        "Colby Jack Cheese Slices",
+        "Assorted Organic Baby Food Pouches"
+      ],
+      "detail": {
+        "tp": 13,
+        "predicted": 17,
+        "expected": 16
+      }
+    },
+    {
+      "name": "images.json",
+      "precision": 0.3333333333333333,
+      "recall": 0.7142857142857143,
+      "f1": 0.4545454545454545,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [
+        "Water Spinach",
+        "Chinese Celery"
+      ],
+      "phantom": [
+        "Bok Choy",
+        "Lettuce Greens",
+        "Cucumbers",
+        "Okra",
+        "Ginger Root",
+        "Green Cabbage",
+        "Red Bell Pepper",
+        "Green Beans",
+        "Mini Banana Bread Loaves",
+        "Dried Mango"
+      ],
+      "detail": {
+        "tp": 5,
+        "predicted": 15,
+        "expected": 7
+      }
+    }
+  ]
+}

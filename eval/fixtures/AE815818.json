@@ -1,0 +1,3 @@
+{"mode":"groceries","images":["AE815818-F83D-460A-9634-88FC6B0821DB.heic"],
+"expectedItems":[{"name":"Soy Milk"},{"name":"Whole Milk"},{"name":"Red Bull"},{"name":"Sparkling Water"}],
+"expectedRejected":[],"expectedDates":{"Whole Milk":"2026-09-16"}}

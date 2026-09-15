@@ -1,0 +1,250 @@
+{
+  "ranAt": "2026-09-15T20:35:45.009Z",
+  "rows": [
+    {
+      "name": "25F1AC6E.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 1,
+        "predicted": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "74A3615C.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 0,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 0,
+        "predicted": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "AE815818.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 0,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 4,
+        "predicted": 4,
+        "expected": 4
+      }
+    },
+    {
+      "name": "BBEE338B.json",
+      "precision": 1,
+      "recall": 0.9,
+      "f1": 0.9473684210526316,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [
+        "Silken Tofu"
+      ],
+      "phantom": [],
+      "detail": {
+        "tp": 9,
+        "predicted": 9,
+        "expected": 10
+      }
+    },
+    {
+      "name": "BC4B63D0.json",
+      "precision": 0.5,
+      "recall": 1,
+      "f1": 0.6666666666666666,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [
+        "Marukan Seasoning"
+      ],
+      "detail": {
+        "tp": 1,
+        "predicted": 2,
+        "expected": 1
+      }
+    },
+    {
+      "name": "C20AA64C.json",
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1": 0.6666666666666666,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [
+        "Zucchini"
+      ],
+      "phantom": [
+        "Organic Cucumber"
+      ],
+      "detail": {
+        "tp": 2,
+        "predicted": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "CD22E3FC.json",
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8000000000000002,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [
+        "Shirataki"
+      ],
+      "phantom": [
+        "Komusubi Shirotaki"
+      ],
+      "detail": {
+        "tp": 4,
+        "predicted": 5,
+        "expected": 5
+      }
+    },
+    {
+      "name": "F105BBEE.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 1,
+        "predicted": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "IMG_1062.json",
+      "precision": 1,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [
+        "Pistachios"
+      ],
+      "phantom": [],
+      "detail": {
+        "tp": 2,
+        "predicted": 2,
+        "expected": 3
+      }
+    },
+    {
+      "name": "IMG_1063.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 1,
+        "predicted": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "IMG_1064.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 0,
+        "predicted": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "d4b51d0c.json",
+      "precision": 0.7647058823529411,
+      "recall": 0.8125,
+      "f1": 0.787878787878788,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [
+        "Broccoli",
+        "Shells and White Cheddar",
+        "Applesauce"
+      ],
+      "phantom": [
+        "Organic Colby Jack Cheese Slices",
+        "Organic Garlic Hummus",
+        "Organic Baby Food Pouch (Assorted Flavors)",
+        "Plant-Based Protein Burger (Flame Grilled)"
+      ],
+      "detail": {
+        "tp": 13,
+        "predicted": 17,
+        "expected": 16
+      }
+    },
+    {
+      "name": "images.json",
+      "precision": 0.3333333333333333,
+      "recall": 0.7142857142857143,
+      "f1": 0.4545454545454545,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [
+        "Water Spinach",
+        "Chinese Celery"
+      ],
+      "phantom": [
+        "Gai Lan",
+        "Napa Cabbage",
+        "White Cabbage",
+        "Red Bell Pepper",
+        "Okra",
+        "Asian Cucumbers",
+        "Long Beans",
+        "Potatoes",
+        "Fried Dough Sticks",
+        "Dried Fruit Chews"
+      ],
+      "detail": {
+        "tp": 5,
+        "predicted": 15,
+        "expected": 7
+      }
+    }
+  ]
+}

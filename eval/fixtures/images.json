@@ -1,0 +1,3 @@
+{"mode":"groceries","images":["images.jpeg"],
+"expectedItems":[{"name":"Water Spinach"},{"name":"Chinese Celery"},{"name":"Cilantro"},{"name":"Cherry Tomatoes"},{"name":"Limes"},{"name":"Avocados"},{"name":"Raspberries"}],
+"expectedRejected":[],"expectedDates":{}}

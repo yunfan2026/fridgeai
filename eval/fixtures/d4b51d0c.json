@@ -1,0 +1,3 @@
+{"mode":"groceries","images":["d4b51d0c-101d-4e6c-bfa3-1f6cd5ee88c6.jpg"],
+"expectedItems":[{"name":"Baby Spinach"},{"name":"Broccoli"},{"name":"Butternut Squash"},{"name":"Carrots"},{"name":"Colby Jack Cheese"},{"name":"Eggs"},{"name":"Mandarin Oranges"},{"name":"Bananas"},{"name":"Raspberries"},{"name":"Almond Milk"},{"name":"Linguine"},{"name":"Shells and White Cheddar"},{"name":"Cookie Thins"},{"name":"LaCroix Sparkling Water"},{"name":"Onions"},{"name":"Applesauce"}],
+"expectedRejected":[],"expectedDates":{}}

@@ -1,0 +1,3 @@
+{"mode":"groceries","images":["IMG_1062.HEIC"],
+"expectedItems":[{"name":"Sweet Potato Chips"},{"name":"Pistachios"},{"name":"Almond Butter Granola"}],
+"expectedRejected":[],"expectedDates":{}}

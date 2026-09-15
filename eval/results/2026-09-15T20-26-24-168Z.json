@@ -1,0 +1,239 @@
+{
+  "ranAt": "2026-09-15T20:26:24.175Z",
+  "rows": [
+    {
+      "name": "25F1AC6E.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 1,
+        "predicted": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "74A3615C.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 0,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 0,
+        "predicted": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "AE815818.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 0,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 4,
+        "predicted": 4,
+        "expected": 4
+      }
+    },
+    {
+      "name": "BBEE338B.json",
+      "precision": 0.9090909090909091,
+      "recall": 1,
+      "f1": 0.9523809523809523,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [
+        "Twin Pack Mushrooms"
+      ],
+      "detail": {
+        "tp": 10,
+        "predicted": 11,
+        "expected": 10
+      }
+    },
+    {
+      "name": "BC4B63D0.json",
+      "precision": 0.5,
+      "recall": 1,
+      "f1": 0.6666666666666666,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [
+        "Roasted Sesame Dressing"
+      ],
+      "detail": {
+        "tp": 1,
+        "predicted": 2,
+        "expected": 1
+      }
+    },
+    {
+      "name": "C20AA64C.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 3,
+        "predicted": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "CD22E3FC.json",
+      "precision": 0.7142857142857143,
+      "recall": 1,
+      "f1": 0.8333333333333333,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [
+        "Natural Angus Prime Beef Chuck",
+        "Natural Angus Prime Beef Chuck"
+      ],
+      "detail": {
+        "tp": 5,
+        "predicted": 7,
+        "expected": 5
+      }
+    },
+    {
+      "name": "F105BBEE.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 1,
+        "predicted": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "IMG_1062.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 3,
+        "predicted": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "IMG_1063.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 1,
+        "predicted": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "IMG_1064.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 0,
+        "predicted": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "d4b51d0c.json",
+      "precision": 0.8235294117647058,
+      "recall": 0.875,
+      "f1": 0.8484848484848485,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [
+        "Broccoli",
+        "Applesauce"
+      ],
+      "phantom": [
+        "Organic Garlic Hummus",
+        "Plant-Based Protein Burger",
+        "Organic Baby Food Pouches (various flavors)"
+      ],
+      "detail": {
+        "tp": 14,
+        "predicted": 17,
+        "expected": 16
+      }
+    },
+    {
+      "name": "images.json",
+      "precision": 0.38461538461538464,
+      "recall": 0.7142857142857143,
+      "f1": 0.5,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [
+        "Water Spinach",
+        "Chinese Celery"
+      ],
+      "phantom": [
+        "Bok Choy",
+        "Napa Cabbage",
+        "Romaine Lettuce",
+        "Green Beans",
+        "Okra",
+        "Peeled Garlic",
+        "Fried Banana Rolls",
+        "Dried Mango"
+      ],
+      "detail": {
+        "tp": 5,
+        "predicted": 13,
+        "expected": 7
+      }
+    }
+  ]
+}
