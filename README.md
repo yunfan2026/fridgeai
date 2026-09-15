@@ -43,7 +43,7 @@ VITE_SUPABASE_URL=https://YOUR-PROJECT.supabase.co
 VITE_SUPABASE_ANON_KEY=eyJhbGci...
 
 # local.env  (server, secret)
-GEMINI_API_KEY=your-gemini-key   # ⚠️ rotate the old one — it was shared in chat
+GEMINI_API_KEY=your-gemini-key   # from Google AI Studio: aistudio.google.com/apikey
 GEMINI_MODEL=gemini-2.5-flash
 PORT=3000
 ```
