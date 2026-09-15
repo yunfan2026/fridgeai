@@ -1,0 +1,219 @@
+{
+  "ranAt": "2026-09-15T21:22:32.275Z",
+  "rows": [
+    {
+      "name": "25F1AC6E.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 1,
+        "predicted": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "74A3615C.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 0,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 0,
+        "predicted": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "AE815818.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 0,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 4,
+        "predicted": 4,
+        "expected": 4
+      }
+    },
+    {
+      "name": "BC4B63D0.json",
+      "precision": 0.3333333333333333,
+      "recall": 0.5,
+      "f1": 0.4,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [
+        "Vinegar"
+      ],
+      "phantom": [
+        "Kewpie Deep Roasted Sesame Dressing",
+        "Cooked White Rice"
+      ],
+      "detail": {
+        "tp": 1,
+        "predicted": 3,
+        "expected": 2
+      }
+    },
+    {
+      "name": "C20AA64C.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 3,
+        "predicted": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "CD22E3FC.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 7,
+        "predicted": 7,
+        "expected": 7
+      }
+    },
+    {
+      "name": "F105BBEE.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 1,
+        "predicted": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "IMG_1062.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 3,
+        "predicted": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "IMG_1063.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 1,
+        "predicted": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "IMG_1064.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 0,
+        "predicted": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "d4b51d0c.json",
+      "precision": 0.8235294117647058,
+      "recall": 0.875,
+      "f1": 0.8484848484848485,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [
+        "Broccoli",
+        "Shells and White Cheddar"
+      ],
+      "phantom": [
+        "Simply Nature Colby Jack Cheese Slices",
+        "Simply Nature Organic Garlic Hummus",
+        "Earth Grown Vegan Protein Burger"
+      ],
+      "detail": {
+        "tp": 14,
+        "predicted": 17,
+        "expected": 16
+      }
+    },
+    {
+      "name": "images.json",
+      "precision": 0.6428571428571429,
+      "recall": 0.75,
+      "f1": 0.6923076923076924,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [
+        "Green Beans",
+        "Lettuce",
+        "Sweet Potatoes"
+      ],
+      "phantom": [
+        "Chinese Cabbage",
+        "Cucumbers",
+        "Limes",
+        "Red Bell Pepper",
+        "Ginger"
+      ],
+      "detail": {
+        "tp": 9,
+        "predicted": 14,
+        "expected": 12
+      }
+    }
+  ]
+}

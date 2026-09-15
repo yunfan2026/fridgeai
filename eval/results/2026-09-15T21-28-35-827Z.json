@@ -1,0 +1,248 @@
+{
+  "ranAt": "2026-09-15T21:28:35.854Z",
+  "rows": [
+    {
+      "name": "25F1AC6E.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 1,
+        "predicted": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "74A3615C.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 0,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 0,
+        "predicted": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "AE815818.json",
+      "precision": 1,
+      "recall": 0.75,
+      "f1": 0.8571428571428571,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 0,
+      "missed": [
+        "Whole Milk"
+      ],
+      "phantom": [],
+      "detail": {
+        "tp": 3,
+        "predicted": 3,
+        "expected": 4
+      }
+    },
+    {
+      "name": "BBEE338B.json",
+      "precision": 1,
+      "recall": 0.8333333333333334,
+      "f1": 0.9090909090909091,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [
+        "Snakehead Fish",
+        "Enoki Mushroom"
+      ],
+      "phantom": [],
+      "detail": {
+        "tp": 10,
+        "predicted": 10,
+        "expected": 12
+      }
+    },
+    {
+      "name": "BC4B63D0.json",
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [
+        "Vinegar"
+      ],
+      "phantom": [
+        "Kikkoman Roasted Sesame Dressing & Marinade"
+      ],
+      "detail": {
+        "tp": 1,
+        "predicted": 2,
+        "expected": 2
+      }
+    },
+    {
+      "name": "C20AA64C.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 3,
+        "predicted": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "CD22E3FC.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 7,
+        "predicted": 7,
+        "expected": 7
+      }
+    },
+    {
+      "name": "F105BBEE.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 1,
+        "predicted": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "IMG_1062.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 3,
+        "predicted": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "IMG_1063.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 1,
+        "predicted": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "IMG_1064.json",
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "guardrailRecall": 0,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [],
+      "phantom": [],
+      "detail": {
+        "tp": 0,
+        "predicted": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "d4b51d0c.json",
+      "precision": 0.5909090909090909,
+      "recall": 0.8125,
+      "f1": 0.6842105263157896,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [
+        "Broccoli",
+        "Shells and White Cheddar",
+        "Fruit Pouches"
+      ],
+      "phantom": [
+        "Organic Gala Apples",
+        "Organic Garlic Hummus",
+        "Simply Nature Colby Jack Cheese Slices",
+        "Simply Nature Buttery Shrimp Scampi",
+        "Earth Grown Flame Grilled Protein Burger",
+        "Organic Apple Banana Strawberry Baby Food Pouch",
+        "Organic Prune Apple Butternut Squash Baby Food Pouch",
+        "Organic Apple Sweet Potato Baby Food Pouch",
+        "Organic Apple Peach Banana Baby Food Pouch"
+      ],
+      "detail": {
+        "tp": 13,
+        "predicted": 22,
+        "expected": 16
+      }
+    },
+    {
+      "name": "images.json",
+      "precision": 0.5625,
+      "recall": 0.75,
+      "f1": 0.6428571428571429,
+      "guardrailRecall": 1,
+      "falseRejected": 0,
+      "dateAcc": 1,
+      "missed": [
+        "Bok Choy",
+        "Lettuce",
+        "Banana Bread"
+      ],
+      "phantom": [
+        "Chinese Cabbage",
+        "Cabbage",
+        "Water Spinach",
+        "Cucumber",
+        "Ginger",
+        "Limes",
+        "Red Bell Pepper"
+      ],
+      "detail": {
+        "tp": 9,
+        "predicted": 16,
+        "expected": 12
+      }
+    }
+  ]
+}

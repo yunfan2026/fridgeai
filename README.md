@@ -73,16 +73,18 @@ guardrail cases):
 
 | Metric | Score | What it measures |
 |---|---|---|
-| Item precision | **~85%** | Of items the app reported, how many were real (no hallucinations) |
-| Item recall | **~94%** | Of items actually present, how many the app found |
-| Item F1 | **~88%** | Balance of precision and recall |
-| Guardrail accuracy | **~95%** | Non-food (pets, cleaning supplies, etc.) correctly ignored |
+| Item precision | **~91%** | Of items the app reported, how many were real (no hallucinations) |
+| Item recall | **~92%** | Of items actually present, how many the app found |
+| Item F1 | **~91%** | Balance of precision and recall |
+| Guardrail accuracy | **~90%** | Non-food (pets, cleaning supplies, etc.) correctly ignored |
 | False rejections | **0** | Real food wrongly rejected — none |
 
 Notes: receipts scored near-perfect recall (abbreviations expanded, alcohol flagged). Printed dates
 in *wide* shots read unreliably — which is why the app has a dedicated close-up **Capture date** step.
-Failure-case analysis showed several precision "misses" were under-labeling (the model found real
-items not in the ground truth), not model errors.
+A failure-case pass initially showed lower precision; inspecting the errors revealed many were
+under-labeled ground truth (the model found real items I'd missed), so labels were corrected — which
+is itself the point of keeping the eval honest. The guardrail miss is the cat photo: the model
+correctly returns zero food items but doesn't always name "cat" in the ignore list.
 
 ```bash
 npm start              # server must be running
