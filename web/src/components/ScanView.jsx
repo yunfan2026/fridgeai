@@ -198,7 +198,6 @@ export default function ScanView({ user, household, inventory, onDone }) {
           ref={dateInputRef}
           type="file"
           accept="image/*"
-          capture="environment"
           hidden
           onChange={(e) => {
             onDateFile(e.target.files[0]);
@@ -265,7 +264,6 @@ export default function ScanView({ user, household, inventory, onDone }) {
           ref={addPhotoRef}
           type="file"
           accept="image/*"
-          capture="environment"
           multiple
           hidden
           onChange={(e) => {
